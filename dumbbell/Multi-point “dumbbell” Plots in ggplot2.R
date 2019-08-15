@@ -136,7 +136,7 @@ geom_text(data = filter(Exports2, Country== "Europe & Central Asia"),
             vjust = -2) +
   theme_ft_rc(grid="X")  +
   labs(
-    title = "Exports analysis by Region",
+    title = "Regional Trade Analysis",
     subtitle = "Exports of goods and services (current US$). World exports show a higher increase since 2000",
     caption = "\n Source: data.worldbank.org
       Visualization: JuanmaMN (Twitter @Juanma_MN)",
