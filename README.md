@@ -11,14 +11,14 @@ Code for all the ggplot2 analysis done and published.
 
 Ggplot2 chart using geom_bar 
 
-      ```
+      
       g<- ggplot(empeorers3, aes(x=reorder(dynasty,average), y=average)) +
         geom_bar(stat="identity", fill="#69b3a2", width=0.6) +
         coord_flip() +
 
         theme_ipsum()
           ... #Please "Two geom_bar graphs - TidyTuesday 13-8-2019.R" for full code
-       ```
+       
   
 <img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/63228728-1a0e4c80-c1ef-11e9-9905-969e62706e73.png">
 
