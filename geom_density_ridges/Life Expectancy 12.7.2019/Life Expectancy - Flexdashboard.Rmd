@@ -1,0 +1,114 @@
+---
+title: "Life Expectancy analysis"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readxl)
+library(tidyr)
+library(dplyr)
+library(plotly)
+library(scales)
+library(readr)
+library (tidyverse)
+library(hrbrthemes)
+library (ggridges)
+
+
+
+data_plotly_GNIPC_LE <- read_csv("data_plotly_GNIPC_LE.csv")
+View(data_plotly_GNIPC_LE)
+
+
+ggplot_data_2<-data_plotly_GNIPC_LE %>% select (1,2,3,5) %>% filter (Year == 2016 & Continent %in% c("Africa", "Asia", "Europe", "N.America", "Oceania", "S.America"))
+
+
+library(readr)
+Life_Expectancy_Gender_gather_join <- read_csv("Life_Expectancy_Gender_gather_join.csv")
+
+Life_Expectancy_Gender_gather_join_2016 <- Life_Expectancy_Gender_gather_join %>%filter(Year==2016  & Continent %in% c("Africa", 
+                                                                                                                       "Asia", 
+                                                                                                                       "Europe", 
+                                                                                                                       "N.America", 
+                                                                                                                       "Oceania", 
+                                                                                                                       "S.America")) 
+
+```
+
+Life Expectancy {data-orientation=rows}
+=====================================  
+
+Column {data-width=200, data-height=300}
+-------------------------------------
+
+###
+
+**Data and Analysis**
+
+The below examples provide an analysis of Life Expectancy by continent and gender where we can see the differences between not only continent by continent but also gender.
+
+
+The individual analyses have been published on my [Twitter account](https://twitter.com/Juanma_MN).
+
+
+Data source used is [World bank](https://data.worldbank.org/) where you can see yearly trends as well for both graphs.
+
+
+
+###
+
+**Code, questions and feedback**
+
+
+* The code for this article is publish in my [github account](https://github.com/JuanmaMN/Flexdashboard).  
+
+* For [RPubs link](http://rpubs.com/Juanma7/437528). Resolution is not great.
+
+
+
+
+Please feel free to reach out for any question or feedback.
+
+Column {data-width=800, data-height=700}
+-------------------------------------
+
+### Life Expectancy by Continent (2016)
+
+```{r echo=FALSE}
+
+ggplot(ggplot_data_2, aes(x=Life_Expectancy,y = reorder(Continent,desc(Continent)), fill = Continent, group = Continent)) +
+  geom_density_ridges2() +
+  theme_ipsum_rc()+
+  labs(
+    caption = "\n Source:World Bank  | https://data.worldbank.org/
+      Visualization: Juanma Martinez (Twitter @Juanma_MN)",
+    x = "Life Expectancy",
+    y = "") +
+  scale_fill_brewer(palette = "Spectral") + theme(legend.position = "none")
+```
+
+
+
+### Life Expectancy - Gender Analysis (2016)
+
+```{r echo=FALSE}
+
+ggplot(Life_Expectancy_Gender_gather_join_2016, aes(x=Life_Expectancy,y = reorder(Continent,desc(Continent)), fill = Gender, group = interaction(Continent, Gender)),width=800, height=700) +
+  geom_density_ridges() + 
+  theme_ipsum_rc()+
+  labs(
+    
+    caption = "\n Source:World Bank  | https://data.worldbank.org/
+      Visualization: JuanmaMN (Twitter @Juanma_MN)",
+    x = "Life Expectancy",
+    y = "") 
+# + scale_fill_brewer(palette = "Spectral")
+
+```

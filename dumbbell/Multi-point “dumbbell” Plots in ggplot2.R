@@ -72,7 +72,7 @@ Exports2$Country<- factor(Exports2$Country, levels = c("Sub-Saharan Africa","Sou
                                                        "Europe & Central Asia"))
 
 
-
+View(Exports2)
 # plot --------------------------------------------------------------------
 
 
