@@ -78,8 +78,7 @@ Multi-point “dumbbell” plot with ggplot2.
         labs(
           title = "Children out of school (primary) - World Analysis - Yearly trends by Gender",
           x = "",
-          y = "") +
-        scale_fill_brewer(palette="Dark2") 
+          y = "")
 
       ggplotly(p23, tooltip=c("x","text"))
 
