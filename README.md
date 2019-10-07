@@ -58,3 +58,27 @@ Multi-point “dumbbell” plot with ggplot2.
           y = "")  #Please see "Life Expectancy - Flexdashboard.Rmd" for full code
     
 <img width="686" alt="Ridgeline - Graph - Gender" src="https://user-images.githubusercontent.com/37122520/63228668-10d0b000-c1ee-11e9-80e8-8b11d9a0d4f2.png">
+
+
+### **Area graph**
+
+      p23 <- Children_out_of_school_3%>% 
+        ggplot(aes(x=Year, y=Value, group=1,
+                   text = paste("Gender:", Gender, 
+                                "<br> Children out of school primary:", round(Value/1000000, digits = 1), "million"),
+                   fill=Gender)) +
+        geom_area() +
+        geom_hline(yintercept=59100000, linetype="dashed", color = "red") +
+        scale_fill_viridis(discrete = TRUE)  +
+        theme_ipsum() +
+        theme(legend.position="bottom")  +
+        scale_y_continuous(label = unit_format(unit = "m", scale = 1e-6))+
+        scale_x_discrete(breaks=c(1970,1980,1990,2000, 2010, 2018))+
+        labs(
+          title = "Children out of school (primary) - World Analysis - Yearly trends by Gender",
+          x = "",
+          y = "") +
+        scale_fill_brewer(palette="Dark2") 
+
+      ggplotly(p23, tooltip=c("x","text"))
+
