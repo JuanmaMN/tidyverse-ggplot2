@@ -19,7 +19,8 @@ Ggplot2 chart using geom_bar
         theme_ipsum()
           ... #Please see "Two geom_bar graphs - TidyTuesday 13-8-2019.R" for full code
        
-  
+ 
+ <br>
 <img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/63228728-1a0e4c80-c1ef-11e9-9905-969e62706e73.png">
 
 
@@ -39,7 +40,7 @@ Multi-point “dumbbell” plot with ggplot2.
           linetype = "blank", size = 0.3, color = "gray80"
         ) +   #Please see "Multi-point “dumbbell” Plots in ggplot2.R" for full code
   
-
+ <br>
 <img width="681" alt="Exports - 15 8 2019" src="https://user-images.githubusercontent.com/37122520/63228732-2397b480-c1ef-11e9-847b-e6947ed369eb.png">
 
 
@@ -56,5 +57,31 @@ Multi-point “dumbbell” plot with ggplot2.
             Visualization: JuanmaMN (Twitter @Juanma_MN)",
           x = "Life Expectancy",
           y = "")  #Please see "Life Expectancy - Flexdashboard.Rmd" for full code
-    
+  <br>   
 <img width="686" alt="Ridgeline - Graph - Gender" src="https://user-images.githubusercontent.com/37122520/63228668-10d0b000-c1ee-11e9-80e8-8b11d9a0d4f2.png">
+
+
+### **Area graph**
+
+      p23 <- Children_out_of_school_3%>% 
+        ggplot(aes(x=Year, y=Value, group=1,
+                   text = paste("Gender:", Gender, 
+                                "<br> Children out of school primary:", round(Value/1000000, digits = 1), "million"),
+                   fill=Gender)) +
+        geom_area() +
+        geom_hline(yintercept=59100000, linetype="dashed", color = "red") +
+        scale_fill_viridis(discrete = TRUE)  +
+        theme_ipsum() +
+        theme(legend.position="bottom")  +
+        scale_y_continuous(label = unit_format(unit = "m", scale = 1e-6))+
+        scale_x_discrete(breaks=c(1970,1980,1990,2000, 2010, 2018))+
+        labs(
+          title = "Children out of school (primary) - World Analysis - Yearly trends by Gender",
+          x = "",
+          y = "")
+
+      ggplotly(p23, tooltip=c("x","text"))
+
+ <br>
+
+<img width="873" alt="Gender analysis" src="https://user-images.githubusercontent.com/37122520/66345225-8aac2c80-e947-11e9-9784-012d61ce8fb1.png">
