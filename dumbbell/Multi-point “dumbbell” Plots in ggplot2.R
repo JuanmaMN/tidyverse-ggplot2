@@ -1,5 +1,5 @@
 
-# Make Multi-point “dumbbell” Plots in ggplot2 ----------------------------
+# Make Multi-point "dumbbell" Plots in ggplot2 ----------------------------
 
 # Upload the packages -----------------------------------------------------
 
@@ -18,22 +18,22 @@ library(readxl)
 # Upload the data ---------------------------------------------------------
 
 
-Exports <- read_excel("dumbbell/Exports.xls", col_types = c("text", 
-                                                   "text", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric", "numeric", 
-                                                   "numeric", "numeric", "numeric"))
+Exports <- read_excel("Exports.xlsx", col_types = c("text", 
+                                                    "text", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric", 
+                                                    "numeric", "numeric", "numeric", "numeric"))
 
 
 
