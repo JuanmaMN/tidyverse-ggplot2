@@ -36,7 +36,11 @@ Ggplot2 chart using geom_dumbbell.
                       colour_xend = "#1380A1")+
         theme_ipsum_rc()  + ....
         
-        
+<br>      
+<img width="703" alt="14 10 2019" src="https://user-images.githubusercontent.com/37122520/67159242-050e8080-f33a-11e9-954d-8836ba2e1a77.png">
+
+
+<br>
 
 Multi-point “dumbbell” plot with ggplot2.  
 
@@ -55,6 +59,7 @@ Multi-point “dumbbell” plot with ggplot2.
  <br>
 <img width="681" alt="Exports - 15 8 2019" src="https://user-images.githubusercontent.com/37122520/63228732-2397b480-c1ef-11e9-847b-e6947ed369eb.png">
 
+<br>
 
 ### **Ridgeline**
 
@@ -69,9 +74,11 @@ Multi-point “dumbbell” plot with ggplot2.
             Visualization: JuanmaMN (Twitter @Juanma_MN)",
           x = "Life Expectancy",
           y = "")  #Please see "Life Expectancy - Flexdashboard.Rmd" for full code
-  <br>   
+<br>   
 <img width="686" alt="Ridgeline - Graph - Gender" src="https://user-images.githubusercontent.com/37122520/63228668-10d0b000-c1ee-11e9-80e8-8b11d9a0d4f2.png">
 
+
+<br>
 
 ### **Area graph**
 
