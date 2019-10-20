@@ -26,6 +26,18 @@ Ggplot2 chart using geom_bar
 
 ### **Dumbbell**
 
+
+Ggplot2 chart using geom_dumbbell.
+
+      ggplot(Electric_car, aes(x = avg_city_consumption, xend = avg_highway_consumption, y=reorder(make,avg_city_consumption))) + 
+        geom_dumbbell(colour = "#e5e5e5",
+                      size = 3,
+                      colour_x = "#228b34",
+                      colour_xend = "#1380A1")+
+        theme_ipsum_rc()  + ....
+        
+        
+
 Multi-point “dumbbell” plot with ggplot2.  
 
      ggplot() +
