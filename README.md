@@ -87,7 +87,8 @@ Multi-point “dumbbell” plot with ggplot2.
       p23 <- Children_out_of_school_3%>% 
         ggplot(aes(x=Year, y=Value, group=1,
                    text = paste("Gender:", Gender, 
-                                "<br> Children out of school primary:", round(Value/1000000, digits = 1), "million"),
+                                "<br> Children out of school primary:", round(Value/1000000, digits = 1),
+                                                                                          "million"),
                    fill=Gender)) +
         geom_area() +
         geom_hline(yintercept=59100000, linetype="dashed", color = "red") +
