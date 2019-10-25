@@ -125,6 +125,4 @@ Multi-point “dumbbell” plot with ggplot2.
 
 <br>
  
-<img width="421" alt="22-10-2019" src="https://user-images.githubusercontent.com/37122520/67565809-331b0880-f71e-11e9-8cc6-4bf36c65cca3.png">
-
 ![Rplot](https://user-images.githubusercontent.com/37122520/67565985-95740900-f71e-11e9-8162-7eecbd6f84a0.png)
