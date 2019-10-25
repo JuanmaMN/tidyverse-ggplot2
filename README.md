@@ -107,3 +107,22 @@ Multi-point “dumbbell” plot with ggplot2.
  <br>
 
 <img width="873" alt="Gender analysis" src="https://user-images.githubusercontent.com/37122520/66345225-8aac2c80-e947-11e9-9784-012d61ce8fb1.png">
+
+
+<br>
+
+### **Waffle graph**
+
+
+      ggplot(waffle, aes(fill = Review_Rating, values = n)) +
+
+            geom_waffle(color = "white", size = .25, n_rows = 10, flip = T) +
+
+            facet_wrap(~Year, nrow = 1, strip.position = "bottom") + ... 
+      
+                  #Please see "geom_waffle - TidyTuesday 22-10-2019.R" for full code
+
+
+<br>
+ 
+<img width="421" alt="22-10-2019" src="https://user-images.githubusercontent.com/37122520/67565809-331b0880-f71e-11e9-8cc6-4bf36c65cca3.png">
