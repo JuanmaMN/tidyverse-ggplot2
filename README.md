@@ -21,7 +21,11 @@ Ggplot2 chart using geom_bar
        
  
  <br>
-<img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/63228728-1a0e4c80-c1ef-11e9-9905-969e62706e73.png">
+ 
+ <p align="center">
+  <img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/63228728-1a0e4c80-c1ef-11e9-9905-969e62706e73.png">
+</p>
+
 
 
 ### **Dumbbell**
@@ -37,8 +41,11 @@ Ggplot2 chart using geom_dumbbell.
                       colour_xend = "#1380A1")+
         theme_ipsum_rc()  + ....
         
-<br>      
+<br>  
+
+<p align="center">
 <img width="703" alt="14 10 2019" src="https://user-images.githubusercontent.com/37122520/67159242-050e8080-f33a-11e9-954d-8836ba2e1a77.png">
+</p>
 
 
 <br>
@@ -58,7 +65,10 @@ Multi-point “dumbbell” plot with ggplot2.
         ) +   #Please see "Multi-point “dumbbell” Plots in ggplot2.R" for full code
   
  <br>
+ 
+<p align="center">
 <img width="681" alt="Exports - 15 8 2019" src="https://user-images.githubusercontent.com/37122520/63228732-2397b480-c1ef-11e9-847b-e6947ed369eb.png">
+</p>
 
 <br>
 
@@ -76,9 +86,11 @@ Multi-point “dumbbell” plot with ggplot2.
             Visualization: JuanmaMN (Twitter @Juanma_MN)",
           x = "Life Expectancy",
           y = "")  #Please see "Life Expectancy - Flexdashboard.Rmd" for full code
-<br>   
-<img width="686" alt="Ridgeline - Graph - Gender" src="https://user-images.githubusercontent.com/37122520/63228668-10d0b000-c1ee-11e9-80e8-8b11d9a0d4f2.png">
+<br> 
 
+<p align="center">
+<img width="686" alt="Ridgeline - Graph - Gender" src="https://user-images.githubusercontent.com/37122520/63228668-10d0b000-c1ee-11e9-80e8-8b11d9a0d4f2.png">
+</p>
 
 <br>
 
@@ -105,8 +117,9 @@ Multi-point “dumbbell” plot with ggplot2.
       ggplotly(p23, tooltip=c("x","text"))
 
  <br>
-
+<p align="center">
 <img width="873" alt="Gender analysis" src="https://user-images.githubusercontent.com/37122520/66345225-8aac2c80-e947-11e9-9784-012d61ce8fb1.png">
+</p>
 
 
 <br>
@@ -125,4 +138,6 @@ Multi-point “dumbbell” plot with ggplot2.
 
 <br>
  
+<p align="center">
 ![Rplot](https://user-images.githubusercontent.com/37122520/67565985-95740900-f71e-11e9-8162-7eecbd6f84a0.png)
+</p>
