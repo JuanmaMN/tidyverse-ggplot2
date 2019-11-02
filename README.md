@@ -44,7 +44,7 @@ Ggplot2 chart using geom_dumbbell.
 <br>  
 
 <p align="center">
-<img width="703" alt="14 10 2019" src="https://user-images.githubusercontent.com/37122520/67159242-050e8080-f33a-11e9-954d-8836ba2e1a77.png">
+<img width="918" alt="14 10 2019" src="https://user-images.githubusercontent.com/37122520/67159242-050e8080-f33a-11e9-954d-8836ba2e1a77.png">
 </p>
 
 
@@ -67,7 +67,7 @@ Multi-point “dumbbell” plot with ggplot2.
  <br>
  
 <p align="center">
-<img width="681" alt="Exports - 15 8 2019" src="https://user-images.githubusercontent.com/37122520/63228732-2397b480-c1ef-11e9-847b-e6947ed369eb.png">
+<img width="918" alt="Exports - 15 8 2019" src="https://user-images.githubusercontent.com/37122520/63228732-2397b480-c1ef-11e9-847b-e6947ed369eb.png">
 </p>
 
 <br>
@@ -89,7 +89,7 @@ Multi-point “dumbbell” plot with ggplot2.
 <br> 
 
 <p align="center">
-<img width="686" alt="Ridgeline - Graph - Gender" src="https://user-images.githubusercontent.com/37122520/63228668-10d0b000-c1ee-11e9-80e8-8b11d9a0d4f2.png">
+<img width="918" alt="Ridgeline - Graph - Gender" src="https://user-images.githubusercontent.com/37122520/63228668-10d0b000-c1ee-11e9-80e8-8b11d9a0d4f2.png">
 </p>
 
 <br>
@@ -118,7 +118,7 @@ Multi-point “dumbbell” plot with ggplot2.
 
  <br>
 <p align="center">
-<img width="873" alt="Gender analysis" src="https://user-images.githubusercontent.com/37122520/66345225-8aac2c80-e947-11e9-9784-012d61ce8fb1.png">
+<img width="918" alt="Gender analysis" src="https://user-images.githubusercontent.com/37122520/66345225-8aac2c80-e947-11e9-9784-012d61ce8fb1.png">
 </p>
 
 
@@ -139,7 +139,7 @@ Multi-point “dumbbell” plot with ggplot2.
 <br>
  
 <p align="center">
-<img width="362" alt="waffle" src="https://user-images.githubusercontent.com/37122520/68069095-a989bd00-fd53-11e9-8823-8d2e7ca05487.png">
+<img width="918" alt="waffle" src="https://user-images.githubusercontent.com/37122520/68069095-a989bd00-fd53-11e9-8823-8d2e7ca05487.png">
 
 
 </p>
