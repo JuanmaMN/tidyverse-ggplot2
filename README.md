@@ -139,6 +139,7 @@ Multi-point “dumbbell” plot with ggplot2.
 <br>
  
 <p align="center">
-<img width="339" alt="waffle" src="https://user-images.githubusercontent.com/37122520/68069082-78a98800-fd53-11e9-9156-3be8070f0b1a.png">
+<img width="362" alt="waffle" src="https://user-images.githubusercontent.com/37122520/68069095-a989bd00-fd53-11e9-8823-8d2e7ca05487.png">
+
 
 </p>
