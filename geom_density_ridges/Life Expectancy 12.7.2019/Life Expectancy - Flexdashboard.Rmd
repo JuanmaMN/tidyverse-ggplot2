@@ -83,7 +83,7 @@ Column {data-width=800, data-height=700}
 
 ```{r echo=FALSE}
 
-ggplot(ggplot_data_2, aes(x=Life_Expectancy,y = reorder(Continent,desc(Continent)), fill = Continent, group = Continent)) +
+g1<- ggplot(ggplot_data_2, aes(x=Life_Expectancy,y = reorder(Continent,desc(Continent)), fill = Continent, group = Continent)) +
   geom_density_ridges2() +
   theme_ipsum_rc()+
   labs(
@@ -100,7 +100,7 @@ ggplot(ggplot_data_2, aes(x=Life_Expectancy,y = reorder(Continent,desc(Continent
 
 ```{r echo=FALSE}
 
-ggplot(Life_Expectancy_Gender_gather_join_2016, aes(x=Life_Expectancy,y = reorder(Continent,desc(Continent)), fill = Gender, group = interaction(Continent, Gender)),width=800, height=700) +
+g2<-ggplot(Life_Expectancy_Gender_gather_join_2016, aes(x=Life_Expectancy,y = reorder(Continent,desc(Continent)), fill = Gender, group = interaction(Continent, Gender)),width=800, height=700) +
   geom_density_ridges() + 
   theme_ipsum_rc()+
   labs(
@@ -112,3 +112,12 @@ ggplot(Life_Expectancy_Gender_gather_join_2016, aes(x=Life_Expectancy,y = reorde
 # + scale_fill_brewer(palette = "Spectral")
 
 ```
+
+
+```{r}
+library(cowplot)
+
+
+plot_grid(g1,g2, labels = "AUTO")
+```
+
