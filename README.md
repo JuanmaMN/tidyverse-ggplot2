@@ -77,7 +77,7 @@ Multi-point “dumbbell” plot with ggplot2.
 
 Multi-point “dumbbell” plot with ggplot2 and point difference.
 
-      g<-ggplot(Avg_223, aes(x = Avg_Tries_Pool, xend = Avg_Tries_KO, y=reorder(Team,Avg_Tries_Pool))) + 
+      ggplot(Avg_223, aes(x = Avg_Tries_Pool, xend = Avg_Tries_KO, y=reorder(Team,Avg_Tries_Pool))) + 
         geom_dumbbell(colour = "#dddddd",
                       size = 3,
                       colour_x = "#FAAB18",
@@ -88,6 +88,13 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
                   color="grey20", size=4, vjust=-3, fontface="bold") +
         scale_x_continuous(breaks = c(0:7.5), limits = c(-1, 10),expand = c(0, 0))   + 
         theme_ipsum()  # Please see "Multi-point dumbbell with difference - Rugby World Cup 2019" for full code
+        
+
+<br>
+<p align="center">
+<img width="918" alt="Rugby (2)" src="https://user-images.githubusercontent.com/37122520/68074483-58012280-fd93-11e9-98af-7f41d4cb5a19.png">
+</p>
+<br>
 
 
 
