@@ -111,11 +111,11 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
           caption = "\n Source:World Bank  | https://data.worldbank.org/
             Visualization: JuanmaMN (Twitter @Juanma_MN)",
           x = "Life Expectancy",
-          y = "")  #Please see "Life Expectancy - Flexdashboard.Rmd" for full code
+          y = "")  #Please see "Life Expectancy - Two plots" for full code
 <br> 
 
 <p align="center">
-<img width="918" alt="Ridgeline - Graph - Gender" src="https://user-images.githubusercontent.com/37122520/63228668-10d0b000-c1ee-11e9-80e8-8b11d9a0d4f2.png">
+<img width="918" alt="LE" src="https://user-images.githubusercontent.com/37122520/68077357-3e270600-fdba-11e9-8fb6-34d200a6e855.png">
 </p>
 
 <br>
