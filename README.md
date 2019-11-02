@@ -1,6 +1,6 @@
 # tidyverse-ggplot2
 
-Code for all the ggplot2 analysis done and published.
+Code for all the ggplot2 analyses done and published.
 
 
 
