@@ -182,3 +182,6 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 
 <br>
 
+<p align="center">
+<img width="918" alt="data" src="https://user-images.githubusercontent.com/37122520/69096394-3f0f9700-0a4c-11ea-9761-fb9402ca2af8.png">
+</p>
