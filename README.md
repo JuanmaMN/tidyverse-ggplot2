@@ -169,3 +169,19 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 
 
 </p>
+
+
+### **Heatmap with geom_tile**
+
+      ggplot(data, aes(x = Day, y = fct_reorder(bird_breed,n))) +
+        geom_tile(aes(fill = n), color = "#2b2b2b") +
+        geom_text(aes(label = n), color = "#22292F") +
+        scale_fill_gradient(low = "#20b2aa", high = "#2072b2") + ...
+        
+            # Please see "geom_tile - TidyTuesday 18-11-2019.R" for full code
+
+<br>
+
+<p align="center">
+<img width="918" alt="data" src="https://user-images.githubusercontent.com/37122520/69096394-3f0f9700-0a4c-11ea-9761-fb9402ca2af8.png">
+</p>
