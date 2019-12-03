@@ -185,3 +185,25 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 <p align="center">
 <img width="918" alt="data" src="https://user-images.githubusercontent.com/37122520/69096394-3f0f9700-0a4c-11ea-9761-fb9402ca2af8.png">
 </p>
+
+
+### Animated ggplot with gganimate
+
+      ggplot<-data %>% ggplot(aes(x=rank, y=GNI,group = Country)) +
+        geom_bar(stat="identity", aes(fill = Country %in% c("Sub-Saharan Africa",...)), width=0.6) +
+        scale_fill_manual(values=c("#5f7ea0","#5f9ea0"))+
+        coord_flip(clip = "off", expand = FALSE) +
+        theme_ipsum() +
+        #transition_reveal(Year) +
+        transition_states(Year, transition_length = 3, state_length = 1) + ...
+            
+            # Please see "gganimate - GNI - Github" for full code
+
+
+<br>
+
+![GNI](https://user-images.githubusercontent.com/37122520/70080199-0819b380-15fe-11ea-835d-b5cfc5418430.gif)
+
+
+
+
