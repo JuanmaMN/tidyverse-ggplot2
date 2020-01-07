@@ -203,7 +203,23 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 <br>
 
 ![GNI](https://user-images.githubusercontent.com/37122520/70080199-0819b380-15fe-11ea-835d-b5cfc5418430.gif)
+</p>
 
+ ### geom_bar_text
+
+      pAustralia <- temperatureperth2 %>% 
+        ggplot(aes(date, diff, label = diff, fill = diff)) +
+        scale_fill_gradient(low = "#20b2aa", high = "#2072b2") +
+        geom_col() +
+        geom_bar_text(place = "right", contrast = TRUE, size=10) +  ...
+        
+          # Please see "geom_bar_text  - TidyTuesday 7-1-2020" for full code
+  
+<br>
+
+<p align="center">
+<img width="918" alt="data" src="https://user-images.githubusercontent.com/37122520/71928433-774f6e00-318f-11ea-9188-ab6772e93047.png">
+</p>
 
 
 
