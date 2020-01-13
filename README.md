@@ -229,6 +229,9 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
               geom_col(width = 0.8) +
               geom_bar_text(place = "right", contrast = TRUE, size=10,
                             aes(label=paste0(Country, "  ",round(Happiness_Score,3)))) + ...
+                            
+                            
+             # Please see "geom_bar_text - geom_flag - 13-1-2020" for full code
 <br>
 
 <p align="center">
