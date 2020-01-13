@@ -222,4 +222,9 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 </p>
 
 
+### geom_bar_text  + geom_flag
 
+            ggplothp<-data_2019 %>% ggplot(aes(x=fct_reorder(Country,Happiness_Score), y=Happiness_Score,group = Country,                             fill= factor(Country))) +
+              geom_col(width = 0.8) +
+              geom_bar_text(place = "right", contrast = TRUE, size=10,
+                            aes(label=paste0(Country, "  ",round(Happiness_Score,3)))) + ...
