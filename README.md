@@ -27,6 +27,18 @@ Ggplot2 chart using geom_bar
 </p>
 
 
+### **geom_bar - facet_wrap**
+
+
+Ggplot2 chart using geom_bar and facet_wrap
+
+      g13<-passwords3%>% ggplot( aes(x=category, y=value)) +
+        geom_bar(stat="identity", fill="#69b3a2", width=0.6) + ...
+          facet_wrap(~measure, ncol=4) + ... Please see "geom_bar - facet_wrap - TidyTuesday 14-1-2020" for full code
+          
+  
+
+
 
 ### **Dumbbell**
 
