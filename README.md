@@ -36,8 +36,11 @@ Ggplot2 chart using geom_bar and facet_wrap
         geom_bar(stat="identity", fill="#69b3a2", width=0.6) + ...
           facet_wrap(~measure, ncol=4) + ... Please see "geom_bar - facet_wrap - TidyTuesday 14-1-2020" for full code
           
-  
-
+ <br>
+ 
+ <p align="center">  
+<img width="918" alt="14-1-2020" src="https://user-images.githubusercontent.com/37122520/72380110-a3796a80-370c-11ea-8eb6-2351f97d843c.png">
+</p>
 
 
 ### **Dumbbell**
