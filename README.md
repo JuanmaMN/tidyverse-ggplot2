@@ -254,3 +254,23 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 <img width="918" alt="HP" src="https://user-images.githubusercontent.com/37122520/72283288-5c20aa80-3636-11ea-8e27-49fffb648d46.png">
 </p>
 
+<br>
+
+### **geom_chicklet**
+
+
+            plot_hotel<-ggplot(hotels_data, aes(x = arrival_date_month, y = prop, fill = hotel)) +
+              geom_chicklet() +
+              coord_flip() +
+              theme_minimal() +
+              scale_fill_manual(values = c("#add8e6", "#20b2aa"))  + ...
+              
+              # Please see "geom_chicklet - TidyTuesday 10-2-2020" for full code
+          
+ <br>
+
+<p align="center">
+ <img width="805" alt="10-2-2020" src="https://user-images.githubusercontent.com/37122520/74194722-c0448780-4c51-11ea-93db-a7bd4162025f.png">
+</p>
+
+<br>
