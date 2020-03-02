@@ -293,7 +293,7 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 <br>
 
 <p align="center">
-
+<img width="805" alt="geom_bump" src="https://user-images.githubusercontent.com/37122520/75709176-10939000-5cba-11ea-81e0-94159ff96991.png">
 </p>
 
 <br>
