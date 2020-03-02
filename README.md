@@ -274,3 +274,26 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 </p>
 
 <br>
+
+
+### **geom_bump**
+
+            ggplot(data3, aes(Year, rank, color = Country)) +
+              geom_point(size = 7) +
+              geom_text(data = data3 %>% filter(Year == min(Year)),
+                        aes(x = Year - .1, label = Country), size = 4, hjust = 1) +
+              geom_text(data = data3 %>% filter(Year == max(Year)),
+                        aes(x = Year + .1, label = Country), size = 4, hjust = 0) +
+              geom_bump(aes(smooth = 6), size = 1.5)  + ...
+              
+              # Please see "geom_bump - 1-3-2020" for full code
+              
+              
+              
+<br>
+
+<p align="center">
+
+</p>
+
+<br>
