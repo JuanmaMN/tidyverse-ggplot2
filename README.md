@@ -15,8 +15,8 @@ Ggplot2 chart using geom_bar
       g<- ggplot(empeorers3, aes(x=reorder(dynasty,average), y=average)) +
         geom_bar(stat="identity", fill="#69b3a2", width=0.6) +
         coord_flip() +
-
-        theme_ipsum()
+        theme_ipsum()  ...
+        
           ... #Please see "Two geom_bar graphs - TidyTuesday 13-8-2019.R" for full code
        
  
@@ -25,6 +25,15 @@ Ggplot2 chart using geom_bar
  <p align="center">
   <img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/63228728-1a0e4c80-c1ef-11e9-9905-969e62706e73.png">
 </p>
+
+
+
+Ggplot chart using geom_bar
+
+      graph<-ggplot(data_lift3,aes(season, increase, fill=color)) +
+        geom_bar(stat = "identity")  ...
+
+      ... #Please see  "geom_bar - TidyTuesday 3-3-2020"
 
 
 ### **geom_bar - facet_wrap**
@@ -297,3 +306,34 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 </p>
 
 <br>
+
+
+### **Line chart**
+
+            g2<-grosses2 %>%
+              ggplot(aes(month,total_seats_sold, group=year, col=factor(year))) +
+              geom_line(size=1.5,linetype = "solid") + 
+              geom_point(size=4, shape=21, fill="#f0f0f0") ... 
+
+            
+              # Please see "geom_line - TidyTuesday - 27-4-2020" for full code
+              
+              
+### **Map**    
+
+            p<-plot_usmap(data = data2, values = "value", labels = TRUE, lines = "white", label_color = "white") ...
+            
+               # Please see "plot_usmap - TidyTuesday 30-3-2020" for full code
+             
+             
+             
+            europe2 <- europe + geom_polygon(data = map,
+                                 aes(fill = fine,
+                                     x = long,
+                                     y = lat,
+                                     group = group),
+                                 color = "grey70")  ...
+               
+               # Please see "geom_polygon - TidyTuesday - 20-4-2020" for full code
+
+               
