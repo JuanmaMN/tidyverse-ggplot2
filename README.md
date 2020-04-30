@@ -35,6 +35,14 @@ Ggplot chart using geom_bar
 
       ... #Please see  "geom_bar - TidyTuesday 3-3-2020"
 
+ 
+ <br>
+ 
+ <p align="center">
+      
+ <img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/80753894-f9d8b080-8b25-11ea-9ce1-94caf889157b.png">
+</p>
+
 
 ### **geom_bar - facet_wrap**
 
@@ -227,7 +235,8 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 
 <br>
 
-![GNI](https://user-images.githubusercontent.com/37122520/70080199-0819b380-15fe-11ea-835d-b5cfc5418430.gif)
+<p align="center">
+<img width="918" alt="data" src="https://user-images.githubusercontent.com/37122520/70080199-0819b380-15fe-11ea-835d-b5cfc5418430.gif">
 </p>
 
  ### geom_bar_text
@@ -319,21 +328,45 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
               # Please see "geom_line - TidyTuesday - 27-4-2020" for full code
               
               
+<br>
+
+<p align="center">
+<img width="805" alt="line_chart" src="https://user-images.githubusercontent.com/37122520/80753924-0bba5380-8b26-11ea-9048-24d21101077a.png">
+      
+<br>
+
+
 ### **Map**    
 
-            p<-plot_usmap(data = data2, values = "value", labels = TRUE, lines = "white", label_color = "white") ...
+        p<-plot_usmap(data = data2, values = "value", labels = TRUE, lines = "white", label_color = "white") ...
             
-               # Please see "plot_usmap - TidyTuesday 30-3-2020" for full code
+             # Please see "plot_usmap - TidyTuesday 30-3-2020" for full code
              
              
-             
-            europe2 <- europe + geom_polygon(data = map,
-                                 aes(fill = fine,
-                                     x = long,
-                                     y = lat,
-                                     group = group),
+<br>
+
+<p align="center">
+<img width="805" alt="map_c" src="https://user-images.githubusercontent.com/37122520/80753936-1248cb00-8b26-11ea-8dbd-d39fef5730df.jpg">
+</p>
+<br>
+
+      
+      
+      
+          europe2 <- europe + geom_polygon(data = map,
+                                 aes(fill = fine,x = long,
+                                     y = lat, group = group),
                                  color = "grey70")  ...
                
-               # Please see "geom_polygon - TidyTuesday - 20-4-2020" for full code
+             # Please see "geom_polygon - TidyTuesday - 20-4-2020" for full code
 
-               
+
+<br>
+<p align="center">
+<img width="805" alt="map_d" src="https://user-images.githubusercontent.com/37122520/80753913-01985500-8b26-11ea-959d-dc7e5d88756f.png">
+</p>
+
+
+
+
+
