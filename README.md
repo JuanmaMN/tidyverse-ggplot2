@@ -120,7 +120,9 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
         geom_text(aes(x=9, y=7.7, label="Difference"),
                   color="grey20", size=4, vjust=-3, fontface="bold") +
         scale_x_continuous(breaks = c(0:7.5), limits = c(-1, 10),expand = c(0, 0))   + 
-        theme_ipsum()  # Please see "Multi-point dumbbell with difference - Rugby World Cup 2019" for full code
+        theme_ipsum()  ...
+        
+        # Please see "Multi-point dumbbell with difference - Rugby World Cup 2019" for full code
         
 
 <br>
@@ -338,7 +340,8 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 
 ### **Map**    
 
-        p<-plot_usmap(data = data2, values = "value", labels = TRUE, lines = "white", label_color = "white") ...
+        p<-plot_usmap(data = data2, values = "value", labels = TRUE, lines = "white", 
+                                                      label_color = "white") ...
             
              # Please see "plot_usmap - TidyTuesday 30-3-2020" for full code
              
@@ -349,8 +352,7 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 <img width="805" alt="map_c" src="https://user-images.githubusercontent.com/37122520/80753936-1248cb00-8b26-11ea-8dbd-d39fef5730df.jpg">
 </p>
 <br>
-
-      
+    
       
       
           europe2 <- europe + geom_polygon(data = map,
@@ -366,7 +368,56 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 <img width="805" alt="map_d" src="https://user-images.githubusercontent.com/37122520/80753913-01985500-8b26-11ea-959d-dc7e5d88756f.png">
 </p>
 
+<br>
+
+            pA <- ggplot() + 
+              geom_map(data = world, map = world,
+                       aes(long, lat, group = group,  map_id = region),
+                       fill = "#282828", color = "#282828") +
+              geom_map(data = databerup, map = world,
+                       aes(fill = total, map_id = country),
+                       color = "#282828", size = 0.15, alpha = .8) ... 
+                       
+            # Please see "geom_map - TidyTuesday 11-5-2020.R" for full code
+
+<br>
+<p align="center">
+<img width="805" alt="map_d" src= "https://user-images.githubusercontent.com/37122520/86510376-0360ec00-bde7-11ea-850e-18abfec2ddd2.png">
+</p>
+<br>
+
+### **Donut chart**  
 
 
+<br>
+
+           gender_donut_second<-ggplot(individuals_study_site2, aes(ymax=yaxismax, ymin=yaxismin, 
+                                                                        xmax=4, xmin=3, fill=study_site2)) +
+              geom_rect(show.legend=T, alpha=0.5) + 
+              coord_polar(theta="y")  ...
+              
+             # Please see "geom_rect - TidyTuesday 23-6-2020.R" for full code
+     
+   
+<br>
+<p align="center">
+  
+<img width="805" alt="23-6-2020 - 2" src="https://user-images.githubusercontent.com/37122520/86510553-92223880-bde8-11ea-99da-8225bdb8ee28.png">
+</p>
+<br>
 
 
+            patchworkgdatafirsts5<-cowplot::plot_grid(gdatafirsts4, gender_datafirsts2, ncol = 2,align = "v")  ...
+              
+              # Please see "patchwork - TidyTuesday - 8-6-2020.R" for full code
+              
+              <br>
+<p align="center">
+  
+<img width="805" alt="23-6-2020 - 2" src="https://user-images.githubusercontent.com/37122520/86510386-1673bc00-bde7-11ea-9a03-5cb7a7d87904.png">
+</p>
+<br>
+
+  
+            
+              
