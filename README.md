@@ -407,11 +407,12 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 <br>
 
 
-            patchworkgdatafirsts5<-cowplot::plot_grid(gdatafirsts4, gender_datafirsts2, ncol = 2,align = "v")  ...
+            patchworkgdatafirsts5<-cowplot::plot_grid(gdatafirsts4, gender_datafirsts2, ncol = 2,
+                                                      align = "v")  ...
               
               # Please see "patchwork - TidyTuesday - 8-6-2020.R" for full code
               
-              <br>
+<br>              
 <p align="center">
   
 <img width="805" alt="23-6-2020 - 2" src="https://user-images.githubusercontent.com/37122520/86510386-1673bc00-bde7-11ea-9a03-5cb7a7d87904.png">
