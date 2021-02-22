@@ -49,7 +49,7 @@ Code for all the ggplot2 analyses done and published.
 
 <br>
 
-<hr>
+
 
 
 ## **geom_bar - facet_wrap**
@@ -70,7 +70,7 @@ Code for all the ggplot2 analyses done and published.
 
 <br>
 
-<hr>
+
 
 ## **Dumbbell**
 
@@ -140,7 +140,7 @@ Code for all the ggplot2 analyses done and published.
 </p>
 <br>
 
-<hr>
+
 
 ## **Ridgeline**
 
@@ -165,7 +165,7 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 </p>
 
 <br>
-<hr>
+
 
 ## **Area graph**
 
