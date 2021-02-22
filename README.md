@@ -30,14 +30,14 @@ Code for all the ggplot2 analyses done and published.
   <img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/63228728-1a0e4c80-c1ef-11e9-9905-969e62706e73.png">
 </p>
 
+<br>
 
 
-Ggplot chart using geom_bar
+
+**Ggplot chart using geom_bar** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/geom_bar%20-%20TidyTuesday%203-3-2020.R)
 
       graph<-ggplot(data_lift3,aes(season, increase, fill=color)) +
         geom_bar(stat = "identity")  ...
-
-      ... #Please see  "geom_bar - TidyTuesday 3-3-2020"
 
  
  <br>
@@ -47,16 +47,20 @@ Ggplot chart using geom_bar
  <img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/80753894-f9d8b080-8b25-11ea-9ce1-94caf889157b.png">
 </p>
 
+<br>
 
-### **geom_bar - facet_wrap**
+<hr>
 
 
-Ggplot2 chart using geom_bar and facet_wrap
+## **geom_bar - facet_wrap**
+
+
+
+**Ggplot2 chart using geom_bar and facet_wrap** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/geom_bar%20-%20facet_wrap%20-%20TidyTuesday%2014-1-2020.R)
 
       g13<-passwords3%>% ggplot( aes(x=category, y=value)) +
         geom_bar(stat="identity", fill="#69b3a2", width=0.6) + ...
           facet_wrap(~measure, ncol=4) + ... 
-                  Please see "geom_bar - facet_wrap - TidyTuesday 14-1-2020" for full code
           
  <br>
  
@@ -64,11 +68,14 @@ Ggplot2 chart using geom_bar and facet_wrap
 <img width="918" alt="14-1-2020" src="https://user-images.githubusercontent.com/37122520/72380110-a3796a80-370c-11ea-8eb6-2351f97d843c.png">
 </p>
 
+<br>
 
-### **Dumbbell**
+<hr>
+
+## **Dumbbell**
 
 
-Ggplot2 chart using geom_dumbbell.
+**Ggplot2 chart using geom_dumbbell.** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/geom_dumbbell%20-%20TidyTuesday%2014-10-2019.R)
 
       ggplot(Electric_car, aes(x = avg_city_consumption, xend = avg_highway_consumption, 
                               y=reorder(make,avg_city_consumption))) + 
@@ -87,7 +94,7 @@ Ggplot2 chart using geom_dumbbell.
 
 <br>
 
-Multi-point “dumbbell” plot with ggplot2.  
+**Multi-point “dumbbell” plot with ggplot2.** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20%E2%80%9Cdumbbell%E2%80%9D%20Plots%20in%20ggplot2.R)
 
      ggplot() +
  
@@ -99,7 +106,7 @@ Multi-point “dumbbell” plot with ggplot2.
             ungroup(),
           aes(x = 0, xend = val, y = Country, yend = Country),
           linetype = "blank", size = 0.3, color = "gray80"
-        ) +   #Please see "Multi-point “dumbbell” Plots in ggplot2.R" for full code
+        ) +   ...
   
  <br>
  
@@ -112,7 +119,7 @@ Multi-point “dumbbell” plot with ggplot2.
 
 <br>
 
-Multi-point “dumbbell” plot with ggplot2 and point difference.
+**Multi-point “dumbbell” plot with ggplot2 and point difference.** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbell%20with%20difference%20-%20Rugby%20World%20Cup%202019%20-%202-11-2019.R)
 
       ggplot(Avg_223, aes(x = Avg_Tries_Pool, xend = Avg_Tries_KO, y=reorder(Team,Avg_Tries_Pool))) + 
         geom_dumbbell(colour = "#dddddd",
@@ -126,8 +133,6 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
         scale_x_continuous(breaks = c(0:7.5), limits = c(-1, 10),expand = c(0, 0))   + 
         theme_ipsum()  ...
         
-        # Please see "Multi-point dumbbell with difference - Rugby World Cup 2019" for full code
-        
 
 <br>
 <p align="center">
@@ -135,10 +140,12 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 </p>
 <br>
 
+<hr>
+
+## **Ridgeline**
 
 
-### **Ridgeline**
-
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_density_ridges/Life%20Expectancy%2012.7.2019/Life%20Expectancy%20-%20Two%20plots.R)
 
       ggplot(Life_Expectancy_Gender_gather_join_2016, aes(x=Life_Expectancy,
                                                             y = reorder(Continent,desc(Continent)), 
@@ -158,8 +165,9 @@ Multi-point “dumbbell” plot with ggplot2 and point difference.
 </p>
 
 <br>
+<hr>
 
-### **Area graph**
+## **Area graph**
 
       p23 <- Children_out_of_school_3%>% 
         ggplot(aes(x=Year, y=Value, group=1,
