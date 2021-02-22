@@ -157,7 +157,8 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
           caption = "\n Source:World Bank  | https://data.worldbank.org/
             Visualization: JuanmaMN (Twitter @Juanma_MN)",
           x = "Life Expectancy",
-          y = "")  #Please see "Life Expectancy - Two plots" for full code
+          y = "")  ...
+
 <br> 
 
 <p align="center">
@@ -168,6 +169,11 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 
 ## **Area graph**
+
+
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_area/geom_area%20-%20Education%20analysis%20by%20Gender.R)
+
+<br>
 
       p23 <- Children_out_of_school_3%>% 
         ggplot(aes(x=Year, y=Value, group=1,
@@ -189,7 +195,8 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
       ggplotly(p23, tooltip=c("x","text"))
 
- <br>
+
+<br>
 <p align="center">
 <img width="918" alt="Gender analysis" src="https://user-images.githubusercontent.com/37122520/66345225-8aac2c80-e947-11e9-9784-012d61ce8fb1.png">
 </p>
@@ -197,8 +204,11 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 <br>
 
-### **Waffle graph**
+## **Waffle graph**
 
+
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_waffle/geom_waffle%20-%20TidyTuesday%2022-10-2019.R)
+<br>
 
       ggplot(waffle, aes(fill = Review_Rating, values = n)) +
 
@@ -206,7 +216,6 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
             facet_wrap(~Year, nrow = 1, strip.position = "bottom") + ... 
       
-                  #Please see "geom_waffle - TidyTuesday 22-10-2019.R" for full code
 
 
 <br>
@@ -218,14 +227,16 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 </p>
 
 
-### **Heatmap with geom_tile**
+## **Heatmap with geom_tile**
 
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_tile/geom_tile%20-%20TidyTuesday%2018-11-2019.R)
+
+<br>
       ggplot(data, aes(x = Day, y = fct_reorder(bird_breed,n))) +
         geom_tile(aes(fill = n), color = "#2b2b2b") +
         geom_text(aes(label = n), color = "#22292F") +
         scale_fill_gradient(low = "#20b2aa", high = "#2072b2") + ...
         
-            # Please see "geom_tile - TidyTuesday 18-11-2019.R" for full code
 
 <br>
 
@@ -234,7 +245,11 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 </p>
 
 
-### Animated ggplot with gganimate
+## **Animated ggplot with gganimate**
+
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/gganimate/gganimate%20-%20GNI%20-%20Github.R)
+
+<br>
 
       ggplot<-data %>% ggplot(aes(x=rank, y=GNI,group = Country)) +
         geom_bar(stat="identity", aes(fill = Country %in% c("Sub-Saharan Africa",...)), width=0.6) +
@@ -244,7 +259,7 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
         #transition_reveal(Year) +
         transition_states(Year, transition_length = 3, state_length = 1) + ...
             
-            # Please see "gganimate - GNI - Github" for full code
+      
 
 
 <br>
@@ -253,15 +268,17 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 <img width="918" alt="data" src="https://user-images.githubusercontent.com/37122520/70080199-0819b380-15fe-11ea-835d-b5cfc5418430.gif">
 </p>
 
- ### geom_bar_text
+ ## **geom_bar_text**
+
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar_text/geom_bar_text%20%20-%20TidyTuesday%207-1-2020.R)
+
+<br>
 
       pAustralia <- temperatureperth2 %>% 
         ggplot(aes(date, diff, label = diff, fill = diff)) +
         scale_fill_gradient(low = "#20b2aa", high = "#2072b2") +
         geom_col() +
         geom_bar_text(place = "right", contrast = TRUE, size=10) +  ...
-        
-          # Please see "geom_bar_text  - TidyTuesday 7-1-2020" for full code
   
 <br>
 
@@ -270,16 +287,18 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 </p>
 
 
-### geom_bar_text  + geom_flag
+## **geom_bar_text  + geom_flag**
 
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar_text/geom_bar_text%20-%20geom_flag%20-%2013-1-2020.R)
+
+<br>
             ggplothp<-data_2019 %>% ggplot(aes(x=fct_reorder(Country,Happiness_Score), y=Happiness_Score,
               group = Country, fill= factor(Country))) +
               geom_col(width = 0.8) +
               geom_bar_text(place = "right", contrast = TRUE, size=10,
                             aes(label=paste0(Country, "  ",round(Happiness_Score,3)))) + ...
                             
-                            
-             # Please see "geom_bar_text - geom_flag - 13-1-2020" for full code
+    
 <br>
 
 <p align="center">
@@ -288,28 +307,32 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 <br>
 
-### **geom_chicklet**
+## **geom_chicklet**
 
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_chicklet/geom_chicklet%20-%20TidyTuesday%2010-2-2020.R)
 
+<br>
             plot_hotel<-ggplot(hotels_data, aes(x = arrival_date_month, y = prop, fill = hotel)) +
               geom_chicklet() +
               coord_flip() +
               theme_minimal() +
               scale_fill_manual(values = c("#add8e6", "#20b2aa"))  + ...
-              
-              # Please see "geom_chicklet - TidyTuesday 10-2-2020" for full code
+
           
  <br>
 
 <p align="center">
- <img width="805" alt="10-2-2020" src="https://user-images.githubusercontent.com/37122520/74194722-c0448780-4c51-11ea-93db-a7bd4162025f.png">
+<img width="805" alt="10-2-2020" src="https://user-images.githubusercontent.com/37122520/74194722-c0448780-4c51-11ea-93db-a7bd4162025f.png">
 </p>
 
 <br>
 
 
-### **geom_bump**
+## **geom_bump**
 
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bump/geom_bump%20-%201-3-2020.R)
+
+<br>
             ggplot(data3, aes(Year, rank, color = Country)) +
               geom_point(size = 7) +
               geom_text(data = data3 %>% filter(Year == min(Year)),
@@ -318,7 +341,7 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
                         aes(x = Year + .1, label = Country), size = 4, hjust = 0) +
               geom_bump(aes(smooth = 6), size = 1.5)  + ...
               
-              # Please see "geom_bump - 1-3-2020" for full code
+ 
               
               
               
@@ -331,7 +354,9 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 <br>
 
 
-### **Line chart**
+## **Line chart**
+
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_line/geom_line%20-%20TidyTuesday%20-%2027-4-2020.R)
 
             g2<-grosses2 %>%
               ggplot(aes(month,total_seats_sold, group=year, col=factor(year))) +
@@ -339,7 +364,6 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
               geom_point(size=4, shape=21, fill="#f0f0f0") ... 
 
             
-              # Please see "geom_line - TidyTuesday - 27-4-2020" for full code
               
               
 <br>
@@ -350,7 +374,7 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 <br>
 
 
-### **Map**    
+## **Map**    
 
         p<-plot_usmap(data = data2, values = "value", labels = TRUE, lines = "white", 
                                                       label_color = "white") ...
