@@ -9,15 +9,21 @@ Code for all the ggplot2 analyses done and published.
 
 ### **Bar chart**
 
-Ggplot2 chart using geom_bar 
+
+**Ggplot2 chart using geom_bar**
+
+
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/Two%20geom_bar%20graphs%20-%20TidyTuesday%2013-8-2019.R)
+<br> 
+
+
+
 
       
       g<- ggplot(empeorers3, aes(x=reorder(dynasty,average), y=average)) +
         geom_bar(stat="identity", fill="#69b3a2", width=0.6) +
         coord_flip() +
         theme_ipsum()  ...
-        
-          ... #Please see "Two geom_bar graphs - TidyTuesday 13-8-2019.R" for full code
        
  
  <br>
