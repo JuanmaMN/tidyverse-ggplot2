@@ -7,13 +7,11 @@ Code for all the ggplot2 analyses done and published.
 
 
 
-### **Bar chart**
+## **Bar chart**
 
 
-**Ggplot2 chart using geom_bar**
+**Ggplot2 chart using geom_bar** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/Two%20geom_bar%20graphs%20-%20TidyTuesday%2013-8-2019.R)
 
-
-Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/Two%20geom_bar%20graphs%20-%20TidyTuesday%2013-8-2019.R)
 <br> 
 
 
