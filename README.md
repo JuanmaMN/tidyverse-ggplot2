@@ -230,8 +230,8 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 ## **Heatmap with geom_tile**
 
 Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_tile/geom_tile%20-%20TidyTuesday%2018-11-2019.R)
-
 <br>
+
       ggplot(data, aes(x = Day, y = fct_reorder(bird_breed,n))) +
         geom_tile(aes(fill = n), color = "#2b2b2b") +
         geom_text(aes(label = n), color = "#22292F") +
@@ -292,6 +292,7 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar_text/geom_bar_text%20-%20geom_flag%20-%2013-1-2020.R)
 
 <br>
+
             ggplothp<-data_2019 %>% ggplot(aes(x=fct_reorder(Country,Happiness_Score), y=Happiness_Score,
               group = Country, fill= factor(Country))) +
               geom_col(width = 0.8) +
@@ -312,6 +313,7 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_chicklet/geom_chicklet%20-%20TidyTuesday%2010-2-2020.R)
 
 <br>
+
             plot_hotel<-ggplot(hotels_data, aes(x = arrival_date_month, y = prop, fill = hotel)) +
               geom_chicklet() +
               coord_flip() +
@@ -333,6 +335,7 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bump/geom_bump%20-%201-3-2020.R)
 
 <br>
+
             ggplot(data3, aes(Year, rank, color = Country)) +
               geom_point(size = 7) +
               geom_text(data = data3 %>% filter(Year == min(Year)),
@@ -358,6 +361,8 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_line/geom_line%20-%20TidyTuesday%20-%2027-4-2020.R)
 
+<br>
+
             g2<-grosses2 %>%
               ggplot(aes(month,total_seats_sold, group=year, col=factor(year))) +
               geom_line(size=1.5,linetype = "solid") + 
@@ -376,10 +381,14 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 ## **Map**    
 
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/map/plot_usmap%20-%20TidyTuesday%2030-3-2020.R)
+
+<br>
+
         p<-plot_usmap(data = data2, values = "value", labels = TRUE, lines = "white", 
                                                       label_color = "white") ...
             
-             # Please see "plot_usmap - TidyTuesday 30-3-2020" for full code
+          
              
              
 <br>
@@ -389,15 +398,15 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 </p>
 <br>
     
-      
-      
+    
+ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/map/geom_polygon%20-%20TidyTuesday%20-%2020-4-2020.R)
+ 
+ <br>
+ 
           europe2 <- europe + geom_polygon(data = map,
                                  aes(fill = fine,x = long,
                                      y = lat, group = group),
                                  color = "grey70")  ...
-               
-             # Please see "geom_polygon - TidyTuesday - 20-4-2020" for full code
-
 
 <br>
 <p align="center">
@@ -406,6 +415,10 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 <br>
 
+ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/map/geom_map%20-%20TidyTuesday%2011-5-2020.R)
+ 
+ <br>
+ 
             pA <- ggplot() + 
               geom_map(data = world, map = world,
                        aes(long, lat, group = group,  map_id = region),
@@ -413,8 +426,6 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
               geom_map(data = databerup, map = world,
                        aes(fill = total, map_id = country),
                        color = "#282828", size = 0.15, alpha = .8) ... 
-                       
-            # Please see "geom_map - TidyTuesday 11-5-2020.R" for full code
 
 <br>
 <p align="center">
@@ -422,8 +433,10 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 </p>
 <br>
 
-### **Donut chart**  
+## **Donut chart**  
 
+
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_rect/geom_rect%20-%20TidyTuesday%2023-6-2020.R)
 
 <br>
 
@@ -431,9 +444,6 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
                                                                         xmax=4, xmin=3, fill=study_site2)) +
               geom_rect(show.legend=T, alpha=0.5) + 
               coord_polar(theta="y")  ...
-              
-             # Please see "geom_rect - TidyTuesday 23-6-2020.R" for full code
-     
    
 <br>
 <p align="center">
@@ -442,11 +452,12 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 </p>
 <br>
 
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/ggplot2%20with%20patchwork/patchwork%20-%20TidyTuesday%20-%208-6-2020.R)
+
+<br>
 
             patchworkgdatafirsts5<-cowplot::plot_grid(gdatafirsts4, gender_datafirsts2, ncol = 2,
                                                       align = "v")  ...
-              
-              # Please see "patchwork - TidyTuesday - 8-6-2020.R" for full code
               
 <br>              
 <p align="center">
