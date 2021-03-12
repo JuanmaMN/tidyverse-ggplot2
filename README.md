@@ -3,35 +3,24 @@
 Code for all the ggplot2 analyses done and published.
 
 
+## **Quasi-Random chart**
 
+**Ggplot2 chart using geom_quasirandom** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_quasirandom/geom_quasirandom%20-%20TidyTuesday%20-%209-3-2021.R)
+
+
+<br> 
+
+<br>
+
+<img width="937" alt="TT-23-2-2021" src="https://user-images.githubusercontent.com/37122520/110520938-05621400-8107-11eb-82c3-e6b3c7d3238d.png">
+</p>
+<br>
+
+<hr>
 
 
 
 ## **Bar chart**
-
-
-**Ggplot2 chart using geom_bar** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/Two%20geom_bar%20graphs%20-%20TidyTuesday%2013-8-2019.R)
-
-<br> 
-
-
-
-
-      
-      g<- ggplot(empeorers3, aes(x=reorder(dynasty,average), y=average)) +
-        geom_bar(stat="identity", fill="#69b3a2", width=0.6) +
-        coord_flip() +
-        theme_ipsum()  ...
-       
- 
- <br>
- 
- <p align="center">
-  <img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/63228728-1a0e4c80-c1ef-11e9-9905-969e62706e73.png">
-</p>
-
-<br>
-
 
 
 **Ggplot chart using geom_bar** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/geom_bar%20-%20TidyTuesday%203-3-2020.R)
