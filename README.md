@@ -116,8 +116,28 @@ Code for all the ggplot2 analyses done and published.
 
 <br>
 
+**Multi-point “dumbbell” plot with ggplot2.** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbel%20-%20TidyTuesday%20-%2023-2-2021.R)
+
+      ggplot() +
+
+        geom_segment(
+          data = earn2 %>% 
+            group_by(age) %>% 
+            top_n(-1) %>% 
+            slice(1) %>%
+            ungroup(),
+          aes(x = 575, xend = median_weekly_earn, y = age, yend = age),
+          linetype = "blank", size = 0.3, color = "gray80"
+        ) + ...
+
 
 <br>
+<p align="center">
+<img width="956" alt="TT-23-2-2021" src="https://user-images.githubusercontent.com/37122520/109567151-cddae280-7adc-11eb-8cbd-071876438d73.png">
+</p>
+<br>
+
+
 
 **Multi-point “dumbbell” plot with ggplot2 and point difference.** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbell%20with%20difference%20-%20Rugby%20World%20Cup%202019%20-%202-11-2019.R)
 
