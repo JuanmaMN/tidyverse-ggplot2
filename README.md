@@ -442,6 +442,27 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 </p>
 <br>
 
+
+**geom_statebins**
+
+Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2021/April/TidyTuesday_17_4_2021.R)
+
+
+<br> 
+
+            ggplot(post_offices_DF_count_join, aes(state=state, fill=color, color=color)) +
+              geom_statebins(border_col ="#fbfaf6",border_size = 1) ...
+              
+              
+<br>
+
+<img width="938" alt="17-4-2021" src="https://user-images.githubusercontent.com/37122520/115109930-916e2380-9f70-11eb-81b3-5cd3a53131e0.png">
+</p>
+<br>
+
+<hr>
+
+
 ## **Donut chart**  
 
 
