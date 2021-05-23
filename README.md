@@ -64,6 +64,21 @@ Code for all the ggplot2 analyses done and published.
 ## **Dumbbell**
 
 
+**Ggplot2 chart using geom_dumbbell.**  - Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2021/May/TidyTuesday_21_5_2021.R)
+
+
+<br>  
+
+<p align="center">
+<img width="918" alt="Gender_gap" src="https://user-images.githubusercontent.com/37122520/119263961-1c2de800-bbd9-11eb-963d-a7794c132463.png">
+</p>
+
+
+<br>
+
+
+
+
 **Ggplot2 chart using geom_dumbbell.** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/geom_dumbbell%20-%20TidyTuesday%2014-10-2019.R)
 
       ggplot(Electric_car, aes(x = avg_city_consumption, xend = avg_highway_consumption, 
