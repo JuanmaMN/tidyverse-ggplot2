@@ -64,14 +64,15 @@ Code for all the ggplot2 analyses done and published.
 ## **Dumbbell**
 
 
-**Ggplot2 chart using geom_dumbbell.**  - Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2021/May/TidyTuesday_21_5_2021.R)
+**Ggplot2 chart using geom_dumbbell.**  - Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2021/May/TidyTuesday_25_5_2021.R)
 
 
 <br>  
 
 <p align="center">
-<img width="918" alt="Gender_gap" src="https://user-images.githubusercontent.com/37122520/119263961-1c2de800-bbd9-11eb-963d-a7794c132463.png">
+<img width="918" alt="TT" src="https://user-images.githubusercontent.com/37122520/119546624-04e32c00-bd8c-11eb-9808-f66c0e4f6859.png">
 </p>
+
 
 
 <br>
