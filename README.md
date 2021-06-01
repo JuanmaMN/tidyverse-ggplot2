@@ -3,6 +3,24 @@
 Code for all the ggplot2 analyses done and published.
 
 
+## **geom_segment**
+
+**Ggplot2 chart using geom_segment** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_segment/geom_segment_TidyTuesday_31_5_2021.R)
+
+
+<br> 
+
+<br>
+
+<img width="937" alt="TT" src="https://user-images.githubusercontent.com/37122520/120367403-b80dd100-c308-11eb-8c89-2cc7267cf6cf.png">
+
+</p>
+<br>
+
+<hr>
+
+
+
 ## **Quasi-Random chart**
 
 **Ggplot2 chart using geom_quasirandom** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_quasirandom/geom_quasirandom%20-%20TidyTuesday%20-%209-3-2021.R)
