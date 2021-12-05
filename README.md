@@ -5,7 +5,7 @@ Code for all the ggplot2 analyses done and published.
 
 ## **geom_segment**
 
-**Ggplot2 chart using geom_segment** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_segment/geom_segment_TidyTuesday_31_5_2021.R)
+**Ggplot2 chart using geom_segment**. Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_segment/geom_segment_TidyTuesday_31_5_2021.R)
 
 
 <br> 
@@ -23,7 +23,7 @@ Code for all the ggplot2 analyses done and published.
 
 ## **Quasi-Random chart**
 
-**Ggplot2 chart using geom_quasirandom** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_quasirandom/geom_quasirandom%20-%20TidyTuesday%20-%209-3-2021.R)
+**Ggplot2 chart using geom_quasirandom**. Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_quasirandom/geom_quasirandom%20-%20TidyTuesday%20-%209-3-2021.R)
 
 
 <br> 
@@ -41,7 +41,7 @@ Code for all the ggplot2 analyses done and published.
 ## **Bar chart**
 
 
-**Ggplot chart using geom_bar** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/geom_bar%20-%20TidyTuesday%203-3-2020.R)
+**Ggplot chart using geom_bar**. Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/geom_bar%20-%20TidyTuesday%203-3-2020.R)
 
       graph<-ggplot(data_lift3,aes(season, increase, fill=color)) +
         geom_bar(stat = "identity")  ...
