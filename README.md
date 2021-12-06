@@ -63,7 +63,7 @@ Code for all the ggplot2 analyses done and published.
 
 
 
-**Ggplot2 chart using geom_bar and facet_wrap** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/geom_bar%20-%20facet_wrap%20-%20TidyTuesday%2014-1-2020.R)
+**Ggplot2 chart using geom_bar and facet_wrap**. Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/geom_bar%20-%20facet_wrap%20-%20TidyTuesday%2014-1-2020.R)
 
       g13<-passwords3%>% ggplot( aes(x=category, y=value)) +
         geom_bar(stat="identity", fill="#69b3a2", width=0.6) + ...
@@ -82,7 +82,7 @@ Code for all the ggplot2 analyses done and published.
 ## **Dumbbell**
 
 
-**Ggplot2 chart using geom_dumbbell.**  - Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2021/May/TidyTuesday_25_5_2021.R)
+**Ggplot2 chart using geom_dumbbell.**.  Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2021/May/TidyTuesday_25_5_2021.R)
 
 
 <br>  
@@ -98,7 +98,7 @@ Code for all the ggplot2 analyses done and published.
 
 
 
-**Ggplot2 chart using geom_dumbbell.** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/geom_dumbbell%20-%20TidyTuesday%2014-10-2019.R)
+**Ggplot2 chart using geom_dumbbell.**. Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/geom_dumbbell%20-%20TidyTuesday%2014-10-2019.R)
 
       ggplot(Electric_car, aes(x = avg_city_consumption, xend = avg_highway_consumption, 
                               y=reorder(make,avg_city_consumption))) + 
@@ -117,7 +117,7 @@ Code for all the ggplot2 analyses done and published.
 
 <br>
 
-**Multi-point “dumbbell” plot with ggplot2.** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20%E2%80%9Cdumbbell%E2%80%9D%20Plots%20in%20ggplot2.R)
+**Multi-point “dumbbell” plot with ggplot2.**. Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20%E2%80%9Cdumbbell%E2%80%9D%20Plots%20in%20ggplot2.R)
 
      ggplot() +
  
@@ -139,7 +139,7 @@ Code for all the ggplot2 analyses done and published.
 
 <br>
 
-**Multi-point “dumbbell” plot with ggplot2.** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbel%20-%20TidyTuesday%20-%2023-2-2021.R)
+**Multi-point “dumbbell” plot with ggplot2.**. Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbel%20-%20TidyTuesday%20-%2023-2-2021.R)
 
       ggplot() +
 
@@ -162,7 +162,7 @@ Code for all the ggplot2 analyses done and published.
 
 
 
-**Multi-point “dumbbell” plot with ggplot2 and point difference.** - Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbell%20with%20difference%20-%20Rugby%20World%20Cup%202019%20-%202-11-2019.R)
+**Multi-point “dumbbell” plot with ggplot2 and point difference.**. Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbell%20with%20difference%20-%20Rugby%20World%20Cup%202019%20-%202-11-2019.R)
 
       ggplot(Avg_223, aes(x = Avg_Tries_Pool, xend = Avg_Tries_KO, y=reorder(Team,Avg_Tries_Pool))) + 
         geom_dumbbell(colour = "#dddddd",
