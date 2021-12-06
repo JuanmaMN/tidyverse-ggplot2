@@ -139,7 +139,7 @@ Code for all the ggplot2 analyses done and published.
 
 <br>
 
-**Multi-point “dumbbell” plot with ggplot2.**. Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbel%20-%20TidyTuesday%20-%2023-2-2021.R)
+**Multi-point “dumbbell” plot with ggplot2.** Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbel%20-%20TidyTuesday%20-%2023-2-2021.R)
 
       ggplot() +
 
@@ -162,7 +162,7 @@ Code for all the ggplot2 analyses done and published.
 
 
 
-**Multi-point “dumbbell” plot with ggplot2 and point difference.**. Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbell%20with%20difference%20-%20Rugby%20World%20Cup%202019%20-%202-11-2019.R)
+**Multi-point “dumbbell” plot with ggplot2 and point difference.** Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbell%20with%20difference%20-%20Rugby%20World%20Cup%202019%20-%202-11-2019.R)
 
       ggplot(Avg_223, aes(x = Avg_Tries_Pool, xend = Avg_Tries_KO, y=reorder(Team,Avg_Tries_Pool))) + 
         geom_dumbbell(colour = "#dddddd",
