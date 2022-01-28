@@ -516,7 +516,7 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 </p>
 <br>
 
-Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/ggplot2%20with%20patchwork/patchwork%20-%20TidyTuesday%20-%208-6-2020.R)
+Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/ggplot2%20with%20patchwork/patchwork%20-%20TidyTuesday%20-%208-6-2020.R).
 
 <br>
 
