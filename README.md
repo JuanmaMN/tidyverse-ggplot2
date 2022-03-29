@@ -3,6 +3,27 @@
 Code for all the ggplot2 analyses done and published.
 
 
+
+## **geom_point**
+
+**Ggplot2 chart using geom_point.** Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2022/March/TidyTuesday_29th_March_2022.R)
+
+
+Contribution to #TidyTuesday - 29th March 2022
+
+<br> 
+
+<br>
+
+<img width="937" alt="TT" src="https://user-images.githubusercontent.com/37122520/160669110-064caaf5-34d9-4c31-b8ed-2241f3ec3a78.png">
+
+</p>
+<br>
+
+<hr>
+
+
+
 ## **geom_segment**
 
 **Ggplot2 chart using geom_segment.** Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_segment/geom_segment_TidyTuesday_31_5_2021.R)
