@@ -539,12 +539,8 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/ggplot2%20with%20patchwork/patchwork%20-%20TidyTuesday%20-%208-6-2020.R).
 
-<br>
-
-            patchworkgdatafirsts5<-cowplot::plot_grid(gdatafirsts4, gender_datafirsts2, ncol = 2,
-                                                      align = "v")  ...
-              
-<br>              
+Contribution to #TidyTuesday - 8th June 2020
+           
 <p align="center">
   
 <img width="805" alt="23-6-2020 - 2" src="https://user-images.githubusercontent.com/37122520/86510386-1673bc00-bde7-11ea-9a03-5cb7a7d87904.png">
