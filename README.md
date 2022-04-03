@@ -296,13 +296,7 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_tile/geom_tile%20-%20TidyTuesday%2018-11-2019.R)
 <br>
 
-      ggplot(data, aes(x = Day, y = fct_reorder(bird_breed,n))) +
-        geom_tile(aes(fill = n), color = "#2b2b2b") +
-        geom_text(aes(label = n), color = "#22292F") +
-        scale_fill_gradient(low = "#20b2aa", high = "#2072b2") + ...
-        
 
-<br>
 
 <p align="center">
 <img width="918" alt="data" src="https://user-images.githubusercontent.com/37122520/69096394-3f0f9700-0a4c-11ea-9761-fb9402ca2af8.png">
