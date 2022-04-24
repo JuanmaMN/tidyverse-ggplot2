@@ -29,6 +29,8 @@ Contribution to #TidyTuesday - 29th March 2022
 **Ggplot2 chart using geom_segment.** Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_segment/geom_segment_TidyTuesday_31_5_2021.R)
 
 
+Contribution to #TidyTuesday - 31st May 2021
+
 <br> 
 
 <br>
