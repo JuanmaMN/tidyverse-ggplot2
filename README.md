@@ -66,9 +66,6 @@ Contribution to #TidyTuesday - 31st May 2021
 
 **Ggplot chart using geom_bar.** Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/geom_bar%20-%20TidyTuesday%203-3-2020.R)
 
-      graph<-ggplot(data_lift3,aes(season, increase, fill=color)) +
-        geom_bar(stat = "identity")  ...
-
  
  <br>
  
