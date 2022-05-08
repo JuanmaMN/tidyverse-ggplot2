@@ -85,9 +85,6 @@ Contribution to #TidyTuesday - 31st May 2021
 
 **Ggplot2 chart using geom_bar and facet_wrap.** Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar/geom_bar%20-%20facet_wrap%20-%20TidyTuesday%2014-1-2020.R)
 
-      g13<-passwords3%>% ggplot( aes(x=category, y=value)) +
-        geom_bar(stat="identity", fill="#69b3a2", width=0.6) + ...
-          facet_wrap(~measure, ncol=4) + ... 
           
  <br>
  
