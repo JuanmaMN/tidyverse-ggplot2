@@ -117,14 +117,7 @@ Contribution to #TidyTuesday - 31st May 2021
 
 **Ggplot2 chart using geom_dumbbell.** Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/geom_dumbbell%20-%20TidyTuesday%2014-10-2019.R)
 
-      ggplot(Electric_car, aes(x = avg_city_consumption, xend = avg_highway_consumption, 
-                              y=reorder(make,avg_city_consumption))) + 
-        geom_dumbbell(colour = "#e5e5e5",
-                      size = 3,
-                      colour_x = "#228b34",
-                      colour_xend = "#1380A1")+
-        theme_ipsum_rc()  + ....
-        
+
 <br>  
 
 <p align="center">
