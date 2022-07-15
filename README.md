@@ -506,14 +506,7 @@ Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/202
 
 Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_rect/geom_rect%20-%20TidyTuesday%2023-6-2020.R)
 
-<br>
 
-           gender_donut_second<-ggplot(individuals_study_site2, aes(ymax=yaxismax, ymin=yaxismin, 
-                                                                        xmax=4, xmin=3, fill=study_site2)) +
-              geom_rect(show.legend=T, alpha=0.5) + 
-              coord_polar(theta="y")  ...
-   
-<br>
 <p align="center">
   
 <img width="805" alt="23-6-2020 - 2" src="https://user-images.githubusercontent.com/37122520/86510553-92223880-bde8-11ea-99da-8225bdb8ee28.png">
@@ -529,6 +522,8 @@ Contribution to #TidyTuesday - 8th June 2020
 <img width="805" alt="23-6-2020 - 2" src="https://user-images.githubusercontent.com/37122520/86510386-1673bc00-bde7-11ea-9a03-5cb7a7d87904.png">
 </p>
 <br>
+
+
 
   
             
