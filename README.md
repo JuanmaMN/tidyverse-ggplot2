@@ -151,18 +151,6 @@ Contribution to #TidyTuesday - 31st May 2021
 
 **Multi-point “dumbbell” plot with ggplot2.** Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbel%20-%20TidyTuesday%20-%2023-2-2021.R)
 
-      ggplot() +
-
-        geom_segment(
-          data = earn2 %>% 
-            group_by(age) %>% 
-            top_n(-1) %>% 
-            slice(1) %>%
-            ungroup(),
-          aes(x = 575, xend = median_weekly_earn, y = age, yend = age),
-          linetype = "blank", size = 0.3, color = "gray80"
-        ) + ...
-
 
 <br>
 <p align="center">
