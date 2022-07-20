@@ -71,7 +71,7 @@ Contribution to #TidyTuesday - 31st May 2021
  
  <p align="center">
       
- <img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/80753894-f9d8b080-8b25-11ea-9ce1-94caf889157b.png">
+<img width="918" alt="13 8 2019" src="https://user-images.githubusercontent.com/37122520/80753894-f9d8b080-8b25-11ea-9ce1-94caf889157b.png">
 </p>
 
 <br>
