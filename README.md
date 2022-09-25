@@ -129,17 +129,6 @@ Contribution to #TidyTuesday - 31st May 2021
 
 **Multi-point “dumbbell” plot with ggplot2.** Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20%E2%80%9Cdumbbell%E2%80%9D%20Plots%20in%20ggplot2.R)
 
-     ggplot() +
- 
-        geom_segment(
-          data = gather(Exports2, measure, val, -Country) %>% 
-            group_by(Country) %>% 
-            top_n(-1) %>% 
-            slice(1) %>%
-            ungroup(),
-          aes(x = 0, xend = val, y = Country, yend = Country),
-          linetype = "blank", size = 0.3, color = "gray80"
-        ) +   ...
   
  <br>
  
