@@ -8,7 +8,6 @@ Code for all the ggplot2 analyses done and published.
 
 **Ggplot2 chart using geom_point.** Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2022/March/TidyTuesday_29th_March_2022.R)
 
-
 Contribution to #TidyTuesday - 29th March 2022
 
 <br> 
