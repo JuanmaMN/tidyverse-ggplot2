@@ -479,10 +479,6 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2021/April/TidyTuesday_17_4_2021.R)
 
 
-<br> 
-
-            ggplot(post_offices_DF_count_join, aes(state=state, fill=color, color=color)) +
-              geom_statebins(border_col ="#fbfaf6",border_size = 1) ...
               
               
 <br>
