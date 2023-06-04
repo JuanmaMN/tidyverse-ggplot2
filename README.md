@@ -167,19 +167,7 @@ Contribution to #TidyTuesday - 29th March 2022
 
 **Multi-point “dumbbell” plot with ggplot2 and point difference.** Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_dumbbell/Multi-point%20dumbbell%20with%20difference%20-%20Rugby%20World%20Cup%202019%20-%202-11-2019.R)
 
-      ggplot(Avg_223, aes(x = Avg_Tries_Pool, xend = Avg_Tries_KO, y=reorder(Team,Avg_Tries_Pool))) + 
-        geom_dumbbell(colour = "#dddddd",
-                      size = 3,
-                      colour_x = "#FAAB18",
-                      colour_xend = "#1380A1") + ... 
-        geom_rect(aes(xmin=8, xmax=10, ymin=-Inf, ymax=Inf), fill="grey80") +
-        geom_text(aes(label=diff, y=Team, x=9), fontface="bold", size=4) +
-        geom_text(aes(x=9, y=7.7, label="Difference"),
-                  color="grey20", size=4, vjust=-3, fontface="bold") +
-        scale_x_continuous(breaks = c(0:7.5), limits = c(-1, 10),expand = c(0, 0))   + 
-        theme_ipsum()  ...
         
-
 <br>
 <p align="center">
 <img width="918" alt="Rugby (2)" src="https://user-images.githubusercontent.com/37122520/68074483-58012280-fd93-11e9-98af-7f41d4cb5a19.png">
