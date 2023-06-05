@@ -37,6 +37,25 @@ Contribution to #TidyTuesday - 31st May 2021
 <hr>
 
 
+## **geom_text**
+
+**Ggplot2 chart using geom_segment.** Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2023/April/TidyTuesday_25th_April_2023)
+
+
+Contribution to #TidyTuesday - 25th April 2023
+
+<br> 
+
+<br>
+
+<img width="937" alt="London_marathon_25_April_2023" src="https://github.com/JuanmaMN/tidyverse-ggplot2/assets/37122520/98cb969b-bb1f-4a61-8aa1-b280be129221">
+
+</p>
+<br>
+
+<hr>
+
+
 ## **geom_point**
 
 **Ggplot2 chart using geom_point.** Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2022/March/TidyTuesday_29th_March_2022.R)
