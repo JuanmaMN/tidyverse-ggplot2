@@ -25,7 +25,7 @@ FIFA World Cup 2022
 
 Contribution to #TidyTuesday - 31st May 2021
 
-<br> 
+<br> are
 
 <br>
 
@@ -228,26 +228,6 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 <br>
 
-      p23 <- Children_out_of_school_3%>% 
-        ggplot(aes(x=Year, y=Value, group=1,
-                   text = paste("Gender:", Gender, 
-                                "<br> Children out of school primary:", round(Value/1000000, digits = 1),
-                                                                                          "million"),
-                   fill=Gender)) +
-        geom_area() +
-        geom_hline(yintercept=59100000, linetype="dashed", color = "red") +
-        scale_fill_viridis(discrete = TRUE)  +
-        theme_ipsum() +
-        theme(legend.position="bottom")  +
-        scale_y_continuous(label = unit_format(unit = "m", scale = 1e-6))+
-        scale_x_discrete(breaks=c(1970,1980,1990,2000, 2010, 2018))+
-        labs(
-          title = "Children out of school (primary) - World Analysis - Yearly trends by Gender",
-          x = "",
-          y = "")
-
-      ggplotly(p23, tooltip=c("x","text"))
-
 
 <br>
 <p align="center">
@@ -256,6 +236,24 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 
 <br>
+
+## **Multi-area graph**
+
+
+Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2023/March/TidyTuesday_14th_March_2023)
+
+<br>
+
+
+<br>
+<p align="center">
+<img width="918" alt="#TidyTuesday_17_3_2023" src="https://github.com/JuanmaMN/tidyverse-ggplot2/assets/37122520/6c7b09c6-eab2-464e-9048-557d898cd11e">
+</p>
+
+
+<br>
+
+
 
 ## **Waffle graph**
 
