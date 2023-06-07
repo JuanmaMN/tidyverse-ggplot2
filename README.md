@@ -25,7 +25,7 @@ FIFA World Cup 2022
 
 Contribution to #TidyTuesday - 31st May 2021
 
-<br> are
+<br> 
 
 <br>
 
@@ -288,6 +288,27 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 <p align="center">
 <img width="918" alt="data" src="https://user-images.githubusercontent.com/37122520/69096394-3f0f9700-0a4c-11ea-9761-fb9402ca2af8.png">
 </p>
+
+
+**Week 23/2023 - Energy**
+
+Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2023/June/TidyTuesday_6th_June_2023).
+
+
+<br>
+
+<p align="center">
+
+
+
+<img width="924" alt="Energy_production_heatmap" src="https://github.com/JuanmaMN/TidyTuesday/assets/37122520/21a56cd4-d1e2-4e55-94bb-cb69941fb11b">
+
+  
+  
+</p>
+
+
+<br>
 
 
 ## **Animated ggplot with gganimate**
