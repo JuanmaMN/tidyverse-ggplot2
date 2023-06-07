@@ -290,7 +290,7 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 </p>
 
 
-**Week 23/2023 - Energy**
+**TidyTuesday Week 23/2023 - Energy**
 
 Code is available [here](https://github.com/JuanmaMN/TidyTuesday/blob/master/2023/June/TidyTuesday_6th_June_2023).
 
@@ -317,19 +317,6 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 <br>
 
-      ggplot<-data %>% ggplot(aes(x=rank, y=GNI,group = Country)) +
-        geom_bar(stat="identity", aes(fill = Country %in% c("Sub-Saharan Africa",...)), width=0.6) +
-        scale_fill_manual(values=c("#5f7ea0","#5f9ea0"))+
-        coord_flip(clip = "off", expand = FALSE) +
-        theme_ipsum() +
-        #transition_reveal(Year) +
-        transition_states(Year, transition_length = 3, state_length = 1) + ...
-            
-      
-
-
-<br>
-
 <p align="center">
 <img width="918" alt="data" src="https://user-images.githubusercontent.com/37122520/70080199-0819b380-15fe-11ea-835d-b5cfc5418430.gif">
 </p>
@@ -338,13 +325,6 @@ Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/mast
 
 Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_bar_text/geom_bar_text%20%20-%20TidyTuesday%207-1-2020.R)
 
-<br>
-
-      pAustralia <- temperatureperth2 %>% 
-        ggplot(aes(date, diff, label = diff, fill = diff)) +
-        scale_fill_gradient(low = "#20b2aa", high = "#2072b2") +
-        geom_col() +
-        geom_bar_text(place = "right", contrast = TRUE, size=10) +  ...
   
 <br>
 
