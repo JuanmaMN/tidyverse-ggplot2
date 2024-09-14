@@ -200,17 +200,6 @@ Contribution to #TidyTuesday - 29th March 2022
 
 Code is available [here](https://github.com/JuanmaMN/tidyverse-ggplot2/blob/master/geom_density_ridges/Life%20Expectancy%2012.7.2019/Life%20Expectancy%20-%20Two%20plots.R)
 
-      ggplot(Life_Expectancy_Gender_gather_join_2016, aes(x=Life_Expectancy,
-                                                            y = reorder(Continent,desc(Continent)), 
-            fill = Gender, group  = interaction(Continent, Gender)),width=800, height=700) +
-        geom_density_ridges() + 
-        theme_ipsum_rc()+
-        labs(
-
-          caption = "\n Source:World Bank  | https://data.worldbank.org/
-            Visualization: JuanmaMN (Twitter @Juanma_MN)",
-          x = "Life Expectancy",
-          y = "")  ...
 
 <br> 
 
